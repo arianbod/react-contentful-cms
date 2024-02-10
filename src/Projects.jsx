@@ -28,7 +28,10 @@ const Projects = () => {
 								/>
 								<h5>{title}</h5>
 								{url && (
-									<a href={url}>
+									<a
+										href={url}
+										target='_blank'
+										rel='norefererrer'>
 										<button
 											className='btn'
 											style={{ margin: '5px' }}>
@@ -37,7 +40,10 @@ const Projects = () => {
 									</a>
 								)}
 								{git && (
-									<a href={git}>
+									<a
+										href={git}
+										target='_blank'
+										rel='norefererrer'>
 										<button className='btn'>git</button>
 									</a>
 								)}
