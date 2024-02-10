@@ -13,7 +13,7 @@ const Projects = () => {
 				<h2>projects</h2>
 				<div className='title-underline'></div>
 				<div className='projects-center'>
-					{projects.map(({ id, img, url, title }) => {
+					{projects.map(({ id, img, url, title, git }) => {
 						return (
 							<a
 								key={id}
@@ -27,6 +27,11 @@ const Projects = () => {
 									className='img'
 								/>
 								<h5>{title}</h5>
+								{git && (
+									<a href={git}>
+										<button>code</button>
+									</a>
+								)}
 							</a>
 						);
 					})}
