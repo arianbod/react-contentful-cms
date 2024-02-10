@@ -27,9 +27,18 @@ const Projects = () => {
 									className='img'
 								/>
 								<h5>{title}</h5>
+								{url && (
+									<a href={url}>
+										<button
+											className='btn'
+											style={{ margin: '5px' }}>
+											view
+										</button>
+									</a>
+								)}
 								{git && (
 									<a href={git}>
-										<button>code</button>
+										<button className='btn'>git</button>
 									</a>
 								)}
 							</a>
