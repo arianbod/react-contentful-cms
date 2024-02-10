@@ -1,5 +1,5 @@
 import React from 'react';
-
+import HeroImg from './assets/hero.svg';
 const Hero = () => {
 	return (
 		<section className='hero'>
@@ -12,6 +12,12 @@ const Hero = () => {
 						amet eius repudiandae quam non tempora, inventore eum praesentium
 						voluptates nulla. Quisquam.
 					</p>
+				</div>
+				<div className='img-container'>
+					<img
+						src={HeroImg}
+						alt=''
+					/>
 				</div>
 			</div>
 			;
