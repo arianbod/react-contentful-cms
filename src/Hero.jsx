@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImg from './assets/hero.svg';
+import HeroImg from './assets/coding.svg';
 const Hero = () => {
 	return (
 		<section className='hero'>
@@ -17,6 +17,7 @@ const Hero = () => {
 				<div className='img-container'>
 					<img
 						src={HeroImg}
+						width={500}
 						alt='woman and the browser'
 					/>
 				</div>
