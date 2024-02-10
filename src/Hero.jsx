@@ -16,7 +16,7 @@ const Hero = () => {
 				<div className='img-container'>
 					<img
 						src={HeroImg}
-						alt=''
+						alt='woman and the browser'
 					/>
 				</div>
 			</div>
